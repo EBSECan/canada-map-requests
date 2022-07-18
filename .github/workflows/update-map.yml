@@ -1,6 +1,7 @@
 name: Update Map
 
 on:
+  workflow_dispatch:
   schedule:
   # Run this every 8 hours
     - cron: '0 */8 * * *'
